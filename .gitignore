@@ -1,0 +1,7 @@
+results.txt
+schema.txt
+survey.pdf
+.vscode/
+*.csv
+.ipynb_checkpoints/
+__pycache__/
