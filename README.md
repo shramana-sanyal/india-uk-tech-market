@@ -72,6 +72,7 @@ Built with Python (pandas, matplotlib, scipy) in a Jupyter notebook. The dashboa
 - `chart-salary-experience.png` — median salary by experience band
 - `chart-skills-comparison.png` — top 10 programming languages, databases and cloud platforms and tools side by side
 - `chart-distributions.png` — salary and experience spread
+- `india-uk-tech-market-capstone.pdf` — presentation of the findings
 - `README.md` — this file
 
 The survey data itself isn't included here due to its large size. It is publicly available. Download `results.csv` from [survey.stackoverflow.co](https://survey.stackoverflow.co/). It will get downloaded as `results.txt`; place it in the project folder to run the notebook.
