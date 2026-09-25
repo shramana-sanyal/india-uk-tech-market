@@ -18,7 +18,17 @@ The Stack Overflow survey covers 177 countries, but most analyses of it report g
 
 **The salary gap is smaller than it first appears.** Raw medians differ by about 5x — but UK respondents have twice the experience. Comparing people at the same career stage, the gap runs from 6.3x at entry level down to 2.3x among those with 20+ years.
 
-**AI use differs sharply.** 61% of Indian respondents use AI tools daily against 38% in the UK, and UK respondents are five times more likely to say they won't use them at all. A chi-square test confirmed this is not chance (p < 0.000001). This was the largest difference found anywhere in the comparison.
+**AI use differs sharply.** 61% of Indian respondents use AI tools daily against 38% in the UK, and UK respondents are five times more likely to say they won't use them at all. A chi-square test confirmed this is not chance (p < 0.000001).
+
+### What this suggests
+
+The shared core stack means the baseline skills are similar in both markets. JavaScript, SQL and Python are equally valuable in both, so someone moving from the tech field in one country to another wouldn't need to relearn the fundamentals.
+
+Where the markets diverge, the direction matters. Someone moving from India to the UK would find Microsoft tooling, i.e., C#, Azure, SQL Server, more commonly expected than their existing experience might suggest.
+
+From the narrowing salary gap, it can be seen that the difference is widest at entry level and closes steadily with experience. This suggests that the worth of moving markets depends heavily on career stage.
+
+**My Recommendation:** If I were advising someone in Indian tech considering a move to the UK, I'd say that the data points towards an earlier move in their career being more beneficial rather than later. The salary gap is widest at entry level, so the relative gain from moving is largest at the start of a career.
 
 ### How I did it
 
@@ -51,7 +61,7 @@ Built with Python (pandas, matplotlib, scipy) in a Jupyter notebook. The dashboa
 
 - Salaries are in raw US dollars and don't account for the cost of living being much lower in India. The gap in what people can actually afford is narrower than what the dollar figures suggest.
 
-- The chi-square test shows AI use genuinely differs between the two countries. Since the survey doesn't ask why, the test does not show it. 
+- The chi-square test shows AI use significantly differs between the two countries, but not why it differs. This is because the survey doesn't ask.
 
 - Experience bands are based on years worked, which doesn't capture seniority directly. Two people with ten years' experience may be at very different levels.
 
@@ -64,4 +74,4 @@ Built with Python (pandas, matplotlib, scipy) in a Jupyter notebook. The dashboa
 - `chart-distributions.png` — salary and experience spread
 - `README.md` — this file
 
-The survey data itself isn't included here due to its large size. and publicly available. Download `results.csv` from [survey.stackoverflow.co](https://survey.stackoverflow.co/) and place it in the project folder to run the notebook.
+The survey data itself isn't included here due to its large size. It is publicly available. Download `results.csv` from [survey.stackoverflow.co](https://survey.stackoverflow.co/). It will get downloaded as `results.txt`; place it in the project folder to run the notebook.
